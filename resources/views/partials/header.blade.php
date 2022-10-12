@@ -5,9 +5,9 @@
         </a>
         <div class="top-left-part">
             <a class="logo" href="index.html">
-                <b>
-                    <img width="200" src="{{ asset('plugins/images/logo.png') }}" alt="home" />
-                </b>
+                
+                <img style="width:100%" src="{{ asset('plugins/images/logo2.png') }}" alt="home" />
+                
             </a>
         </div>
         <ul class="nav navbar-top-links navbar-left hidden-xs">
