@@ -25,7 +25,7 @@
             <ul id="side-menu">
 
                 <li>
-                    <a class="active waves-effect" href="/admin" aria-expanded="false">
+                    <a class="active waves-effect" href="{{ route('admin.dashboard') }}" aria-expanded="false">
                         <i class="icon-screen-desktop fa-fw"></i> <span class="hide-menu"> Dashboard </span>
                     </a>
                 </li>

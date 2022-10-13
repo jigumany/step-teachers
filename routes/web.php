@@ -18,7 +18,7 @@ Route::prefix('admin')->name('admin.')->group(function(){
     Route::post('/login', [LoginController::class, 'login'])->name('login.post');
 
     // dashboard
-    Route::get('/', [DashboardController::class, 'index']);
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
     // school management
     Route::get('/schools', [SchoolsController::class, 'index'])->name('schools');
